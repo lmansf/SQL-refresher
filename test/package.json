@@ -1,0 +1,11 @@
+{
+  "name": "sql-refresher-tests",
+  "private": true,
+  "description": "End-to-end tests for SQL Refresher (kept out of the site root so deploys stay zero-config)",
+  "scripts": {
+    "test": "node e2e.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
