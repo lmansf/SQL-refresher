@@ -1,7 +1,11 @@
 // SQL Refresher UI: routing, editor, lesson rendering, and the run/check flow.
 
+import { inject } from '@vercel/analytics';
 import { LESSONS, SCHEMA_REF, PLAYGROUND_SNIPPETS } from './lessons.js';
 import { initDB, resetData, runSQL, compareResults } from './db.js';
+
+// Initialize Vercel Web Analytics
+inject();
 
 const $ = (sel) => document.querySelector(sel);
 

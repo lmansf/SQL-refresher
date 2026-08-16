@@ -1,0 +1,13 @@
+{
+  "name": "sql-refresher",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "An interactive refresher on SQL basics — 15 hands-on lessons running on DuckDB, entirely in your browser.",
+  "scripts": {
+    "test": "cd test && npm test"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
